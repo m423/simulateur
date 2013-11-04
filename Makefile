@@ -10,7 +10,7 @@ top="$(CURDIR)"/
 ede_FILES=Project.ede Makefile
 
 VERSION=1.0
-DISTDIR=$(top)simulateurRobot-$(VERSION)
+DISTDIR=$(top)simulateur-$(VERSION)
 
 
 
