@@ -1,5 +1,19 @@
-*
-!src/*.cpp
-!include/*.h
-!*.vpp
-!Makefile
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Emacs EDE files
+*.ede
+
+#executable...
+src/simulateur
