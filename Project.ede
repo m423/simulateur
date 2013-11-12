@@ -1,7 +1,0 @@
-;; Object simulateur
-;; EDE Project Files are auto generated: Do Not Edit
-(ede-proj-project "simulateur"
-  :file "Project.ede"
-  :name "simulateur"
-  :targets 'nil
-  )

@@ -1,19 +1,13 @@
-#ifndef _ROBOT_H_
-#define _ROBOT_H_
+#ifndef _ETAT_H_
+#define _ETAT_H_
 
-#include <string>
-using namespace std;
-
-#include "objet.h"
 #include "obstacle.h"
 
-class Robot
+class Etat
 {
 private:
-      string direction;
 
 public:
-
       void avancer(int x, int y);
       void tourner(string direction);
       void saisir(Objet o);
@@ -23,7 +17,6 @@ public:
       int evaluerObstacle();
       void figer();
       void repartir();
-      void afficher();
-
 };
-#endif // _ROBOT_
+
+#endif // _ETAT_

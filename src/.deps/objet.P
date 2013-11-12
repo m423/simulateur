@@ -1,0 +1,1 @@
+objet.o: objet.cpp ../include/objet.h
